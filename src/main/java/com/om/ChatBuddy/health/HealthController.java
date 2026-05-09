@@ -1,11 +1,10 @@
 package com.om.ChatBuddy.health;
 
-import com.om.ChatBuddy.constants.ApiEndPointConstants;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import static com.om.ChatBuddy.constants.ApiEndPointConstants.*;
+import static com.om.ChatBuddy.common.constant.ApiEndPointConstants.Public.HEALTH;
 
 @RestController
 @RequestMapping(HEALTH)
