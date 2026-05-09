@@ -1,6 +1,5 @@
 spring:
   application:
     name: ChatBuddy
-
-server:
-    port: 2108
+  profiles:
+    active: dev
